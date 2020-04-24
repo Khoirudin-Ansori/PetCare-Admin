@@ -49,10 +49,10 @@
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Data</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a class="nav-link active" href="">Data Titipan</a>
+                            <a class="nav-link active" href="/home">Data Penitipan</a>
                         </li>
                         <li>
-                            <a class="nav-link active" href="">Data Perawatan</a>
+                            <a class="nav-link active" href="/perawatan">Data Perawatan</a>
                         </li>
 
                         
@@ -62,7 +62,7 @@
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">User & Admin</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                       <li>
-                        <a class="nav-link active" href="">Data User</a>
+                        <a class="nav-link active" href="{{route('customer.index')}}">Data Customer</a>
                       </li>
                       <li>
                         <a class="nav-link active" href="{{route ('admin.index')}}">Data Admin</a>
@@ -116,20 +116,12 @@
                     </div>
                 </div>
             </nav> -->
-            <div class="roq">
-              <div class="col-md6">
-                <button type="button" id="sidebarCollapse" class="btn btn-info btn-large">
-                  <i class="fas fa-align-left"></i>
-                  <span>Toogle Menu</span> 
-                </button>
-              </div>
-
-            </div>
-     
-
-
-
-        
+      <div class="roq">
+        <div class="col-md6">
+          <h2>Pet Care,</h2>
+          <h3>For Your Life Pet</h3>
+        </div>
+      </div>
              @yield('content')
     </div>  
         

@@ -20,5 +20,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('admin','AdminController@index')->name('admin.index');
+Route::get('/admin','AdminController@index')->name('admin.index');
+Route::get('/customer','CustomerController@index')->name('customer.index');
+Route::get('/perawatan', 'PerawatanController@index');
+Route::get('/rawat/{id}','PerawatanController@edit');
+Route::post('/rawat/{id}/update','PerawatanController@update');
+
 
