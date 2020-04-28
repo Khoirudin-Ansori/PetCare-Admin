@@ -8,7 +8,7 @@
     <!-- <meta name="csrf-token" content="{{ csrf_token() }}"> -->
 
     
-    <link rel="icon" href="{{asset('asset/img/bgloe.png')}}">
+    <link rel="icon" href="{{asset('asset/img/icon.png')}}">
     <title>Pet Care</title>
 
     <!-- Scripts -->
@@ -41,7 +41,7 @@
     <div class="sidebar">
       <nav id="sidebar">
             <div class="sidebar-header">
-                <a href="/home"><img src="{{asset('asset/img/logo.png')}}" width="100%"> </a> 
+                <a href="/home"><img src="{{asset('asset/img/logo.jpg')}}" width="50%"> </a> 
             </div>
 
             <ul class="list-unstyled components">
